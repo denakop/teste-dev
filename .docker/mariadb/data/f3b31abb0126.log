@@ -1,0 +1,505 @@
+mysqld, Version: 10.5.7-MariaDB-1:10.5.7+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+221007 14:04:09	     3 Connect	teste@192.168.176.3 on teste using TCP/IP
+		     3 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     3 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     3 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		     3 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		     3 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		     3 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		     3 Query	SELECT * FROM doctrine_migration_versions
+		     3 Quit	
+221007 14:04:18	     4 Connect	teste@192.168.176.3 on teste using TCP/IP
+		     4 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     4 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     4 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		     4 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		     4 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		     4 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		     4 Query	SELECT * FROM doctrine_migration_versions
+		     4 Quit	
+221007 14:05:45	     5 Connect	teste@192.168.176.3 on teste using TCP/IP
+		     5 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     5 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     5 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		     5 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		     5 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		     5 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		     5 Query	SELECT * FROM doctrine_migration_versions
+		     5 Quit	
+221007 14:06:08	     6 Connect	teste@192.168.176.3 on teste using TCP/IP
+		     6 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     6 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     6 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		     6 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		     6 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		     6 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		     6 Query	SELECT * FROM doctrine_migration_versions
+		     6 Quit	
+221007 14:06:21	     7 Connect	teste@192.168.176.3 on teste using TCP/IP
+		     7 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     7 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     7 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		     7 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		     7 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		     7 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		     7 Query	SELECT * FROM doctrine_migration_versions
+		     7 Quit	
+221007 14:06:28	     8 Connect	teste@192.168.176.3 on teste using TCP/IP
+		     8 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     8 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     8 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		     8 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		     8 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		     8 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		     8 Query	SELECT * FROM doctrine_migration_versions
+		     8 Quit	
+221007 14:06:34	     9 Connect	teste@192.168.176.3 on teste using TCP/IP
+		     9 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     9 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     9 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		     9 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		     9 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		     9 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		     9 Query	SELECT * FROM doctrine_migration_versions
+		     9 Quit	
+221007 14:09:03	    10 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    10 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    10 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    10 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    10 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    10 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    10 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    10 Query	SELECT * FROM doctrine_migration_versions
+		    10 Quit	
+221007 14:10:13	    11 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    11 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    11 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    11 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    11 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    11 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    11 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    11 Query	SELECT * FROM doctrine_migration_versions
+		    11 Quit	
+221007 14:10:54	    12 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    12 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    12 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    12 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    12 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    12 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    12 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    12 Query	SELECT * FROM doctrine_migration_versions
+		    12 Quit	
+221007 14:11:13	    13 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    13 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    13 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    13 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    13 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    13 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    13 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    13 Query	SELECT * FROM doctrine_migration_versions
+		    13 Quit	
+221007 14:11:16	    14 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    14 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    14 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+221007 14:11:17	    14 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    14 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    14 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    14 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    14 Query	SELECT * FROM doctrine_migration_versions
+		    14 Quit	
+221007 14:16:39	    15 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    15 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    15 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    15 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    15 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    15 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    15 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    15 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    15 Query	SELECT * FROM doctrine_migration_versions
+		    15 Quit	
+221007 14:18:43	    16 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    16 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    16 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    16 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    16 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    16 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    16 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    16 Query	SELECT * FROM doctrine_migration_versions
+		    16 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    16 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    16 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    16 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    16 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    16 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    16 Query	SELECT * FROM doctrine_migration_versions
+		    16 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    16 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    16 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    16 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    16 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    16 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'messenger_messages' ORDER BY ORDINAL_POSITION ASC
+		    16 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'messenger_messages' */ WHERE k.table_name = 'messenger_messages' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    16 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'messenger_messages' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    16 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'messenger_messages'
+		    16 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'user' ORDER BY ORDINAL_POSITION ASC
+		    16 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'user' */ WHERE k.table_name = 'user' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    16 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'user' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    16 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'user'
+		    16 Quit	
+221007 14:18:53	    17 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    17 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    17 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    17 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    17 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    17 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    17 Query	SELECT * FROM doctrine_migration_versions
+		    17 Query	SELECT * FROM doctrine_migration_versions
+		    17 Query	SELECT * FROM doctrine_migration_versions
+		    17 Query	SELECT * FROM doctrine_migration_versions
+		    17 Quit	
+221007 14:19:07	    18 Connect	teste@192.168.176.1 on  using TCP/IP
+		    18 Query	SET NAMES utf8mb4
+		    18 Init DB	teste
+		    18 Init DB	teste
+		    18 Query	INSERT INTO `teste`.`user` (`id`, `name`, `age`) VALUES (1, 'teste', 21)
+		    18 Query	SELECT * FROM `teste`.`user` WHERE `id` = 1
+221007 14:19:34	    19 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    19 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    19 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    19 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    19 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    19 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    19 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    19 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    19 Query	SELECT * FROM doctrine_migration_versions
+		    19 Quit	
+221007 14:19:50	    20 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    20 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    20 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    20 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    20 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    20 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    20 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    20 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    20 Query	SELECT * FROM doctrine_migration_versions
+		    20 Quit	
+221007 14:19:56	    21 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    21 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    21 Quit	
+221007 14:24:07	    22 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    22 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    22 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    22 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    22 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    22 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    22 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    22 Query	SELECT * FROM doctrine_migration_versions
+		    22 Quit	
+221007 14:24:11	    23 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    23 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    23 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    23 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    23 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    23 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    23 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    23 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    23 Query	SELECT * FROM doctrine_migration_versions
+		    23 Quit	
+221007 14:26:35	    24 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    24 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    24 Quit	
+221007 14:27:18	    25 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    25 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    25 Quit	
+221007 14:27:33	    18 Query	SHOW VARIABLES LIKE 'lower_case_%'; SHOW VARIABLES LIKE 'sql_mode'
+		    18 Query	SELECT SCHEMA_NAME, DEFAULT_CHARACTER_SET_NAME, DEFAULT_COLLATION_NAME FROM information_schema.SCHEMATA
+		    18 Init DB	teste
+		    18 Query	SHOW FULL TABLES WHERE Table_type != 'VIEW'
+		    18 Init DB	teste
+		    18 Query	SELECT TABLE_NAME, CHECK_OPTION, IS_UPDATABLE, SECURITY_TYPE, DEFINER FROM INFORMATION_SCHEMA.VIEWS WHERE TABLE_SCHEMA = 'teste' ORDER BY TABLE_NAME ASC
+221007 14:27:54	    18 Init DB	teste
+		    18 Query	SET PROFILING = 1
+		    18 Query	SHOW STATUS
+		    18 Query	SHOW STATUS
+		    18 Query	INSERT INTO `teste`.`user` (`id`, `name`, `age`) VALUES (2, 'teste da silva 2', 19)
+		    18 Query	SHOW STATUS
+		    18 Query	SELECT QUERY_ID, SUM(DURATION) AS SUM_DURATION FROM INFORMATION_SCHEMA.PROFILING GROUP BY QUERY_ID
+		    18 Query	SELECT STATE AS `Status`, ROUND(SUM(DURATION),7) AS `Duration`, CONCAT(ROUND(SUM(DURATION)/0.001004*100,3), '') AS `Percentage` FROM INFORMATION_SCHEMA.PROFILING WHERE QUERY_ID=2 GROUP BY SEQ, STATE ORDER BY SEQ
+221007 14:27:57	    26 Connect	teste@192.168.176.1 on  using TCP/IP
+		    26 Query	SET NAMES utf8mb4
+		    26 Init DB	teste
+		    26 Init DB	teste
+		    26 Query	SELECT * FROM `teste`.`user` LIMIT 0,1000
+		    26 Query	SHOW TABLE STATUS LIKE 'user'
+		    26 Init DB	teste
+		    27 Connect	teste@192.168.176.1 on  using TCP/IP
+		    27 Query	SET NAMES utf8mb4
+		    27 Init DB	teste
+		    27 Init DB	teste
+		    28 Connect	teste@192.168.176.1 on  using TCP/IP
+		    28 Query	SET NAMES utf8mb4
+		    28 Init DB	teste
+		    28 Query	SHOW COLUMNS FROM `teste`.`user`
+		    27 Init DB	teste
+		    27 Query	SHOW CREATE TABLE `teste`.`user`
+		    28 Init DB	teste
+		    28 Query	SHOW INDEX FROM `user`
+		    26 Init DB	teste
+		    26 Query	SHOW FULL COLUMNS FROM `user`
+221007 14:28:22	    26 Init DB	teste
+		    26 Query	UPDATE `teste`.`user` SET `name` = ' Teste da Silva' WHERE `id` = 1
+		    26 Query	SELECT * FROM `teste`.`user` WHERE `id` = 1
+221007 14:28:30	    29 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    29 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    29 Quit	
+221007 14:28:38	    30 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    30 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    30 Quit	
+221007 14:28:50	    31 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    31 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    31 Quit	
+221007 14:29:13	    32 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    32 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    32 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    32 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    32 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    32 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    32 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    32 Query	SELECT * FROM doctrine_migration_versions
+		    32 Quit	
+221007 14:29:17	    33 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    33 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    33 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    33 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    33 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    33 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    33 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    33 Query	SELECT * FROM doctrine_migration_versions
+		    33 Quit	
+221007 14:29:23	    34 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    34 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    34 Quit	
+221007 14:29:37	    35 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    35 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    35 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    35 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    35 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    35 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    35 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    35 Query	SELECT * FROM doctrine_migration_versions
+		    35 Quit	
+221007 14:29:41	    36 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    36 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    36 Quit	
+221007 14:29:50	    37 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    37 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    37 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    37 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    37 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    37 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    37 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    37 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    37 Query	SELECT * FROM doctrine_migration_versions
+		    37 Quit	
+221007 14:29:58	    38 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    38 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    38 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    38 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    38 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    38 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    38 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    38 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    38 Query	SELECT * FROM doctrine_migration_versions
+		    38 Quit	
+221007 14:30:30	    39 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    39 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    39 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    39 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    39 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    39 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    39 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    39 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    39 Query	SELECT * FROM doctrine_migration_versions
+		    39 Quit	
+221007 14:30:50	    40 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    40 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    40 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    40 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    40 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    40 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    40 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    40 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    40 Query	SELECT * FROM doctrine_migration_versions
+		    40 Quit	
+221007 14:30:55	    41 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    41 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    41 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    41 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    41 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    41 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    41 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    41 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    41 Query	SELECT * FROM doctrine_migration_versions
+		    41 Quit	
+221007 14:31:28	    42 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    42 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    42 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    42 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    42 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    42 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    42 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    42 Query	SELECT * FROM doctrine_migration_versions
+		    42 Quit	
+221007 14:32:09	    43 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    43 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    43 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    43 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    43 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    43 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    43 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    43 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    43 Query	SELECT * FROM doctrine_migration_versions
+		    43 Quit	
+221007 14:36:44	    44 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    44 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    44 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    44 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    44 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    44 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    44 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    44 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    44 Query	SELECT * FROM doctrine_migration_versions
+		    44 Quit	
+221007 14:37:04	    45 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    45 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    45 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    45 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    45 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    45 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    45 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    45 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    45 Query	SELECT * FROM doctrine_migration_versions
+		    45 Quit	
+221007 14:37:18	    46 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    46 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    46 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    46 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    46 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    46 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    46 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    46 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    46 Query	SELECT * FROM doctrine_migration_versions
+		    46 Quit	
+221007 14:37:33	    47 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    47 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    47 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    47 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    47 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    47 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    47 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    47 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    47 Query	SELECT * FROM doctrine_migration_versions
+		    47 Quit	
+221007 14:37:55	    48 Connect	teste@192.168.176.3 on teste using TCP/IP
+		    48 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+		    48 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    48 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		    48 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		    48 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		    48 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		    48 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		    48 Query	SELECT * FROM doctrine_migration_versions
+		    48 Quit	
+mysqld, Version: 10.5.7-MariaDB-1:10.5.7+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+221007 17:03:51	     3 Connect	teste@192.168.176.3 on teste using TCP/IP
+		     3 Query	SELECT t0.id AS id_1, t0.name AS name_2, t0.age AS age_3 FROM `user` t0
+221007 17:03:52	     3 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     3 Query	SHOW FULL TABLES WHERE Table_type = 'BASE TABLE'
+		     3 Query	SELECT COLUMN_NAME AS Field, COLUMN_TYPE AS Type, IS_NULLABLE AS `Null`, COLUMN_KEY AS `Key`, COLUMN_DEFAULT AS `Default`, EXTRA AS Extra, COLUMN_COMMENT AS Comment, CHARACTER_SET_NAME AS CharacterSet, COLLATION_NAME AS Collation FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'teste' AND TABLE_NAME = 'doctrine_migration_versions' ORDER BY ORDINAL_POSITION ASC
+		     3 Query	SELECT DISTINCT k.`CONSTRAINT_NAME`, k.`COLUMN_NAME`, k.`REFERENCED_TABLE_NAME`, k.`REFERENCED_COLUMN_NAME` /*!50116 , c.update_rule, c.delete_rule */ FROM information_schema.key_column_usage k /*!50116 INNER JOIN information_schema.referential_constraints c ON   c.constraint_name = k.constraint_name AND   c.table_name = 'doctrine_migration_versions' */ WHERE k.table_name = 'doctrine_migration_versions' AND k.table_schema = 'teste' /*!50116 AND c.constraint_schema = 'teste' */ AND k.`REFERENCED_COLUMN_NAME` is not NULL
+		     3 Query	SELECT NON_UNIQUE AS Non_Unique, INDEX_NAME AS Key_name, COLUMN_NAME AS Column_Name, SUB_PART AS Sub_Part, INDEX_TYPE AS Index_Type FROM information_schema.STATISTICS WHERE TABLE_NAME = 'doctrine_migration_versions' AND TABLE_SCHEMA = 'teste' ORDER BY SEQ_IN_INDEX ASC
+		     3 Query	SELECT ENGINE, AUTO_INCREMENT, TABLE_COLLATION, TABLE_COMMENT, CREATE_OPTIONS
+FROM information_schema.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'doctrine_migration_versions'
+		     3 Query	SELECT * FROM doctrine_migration_versions
+		     3 Quit	

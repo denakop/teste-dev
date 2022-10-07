@@ -1,0 +1,61 @@
+version: '3'
+
+services:
+  mariadb:
+    image: mariadb:10.5.7
+    environment:
+      - MYSQL_DATABASE=teste
+      - MYSQL_USER=teste
+      - MYSQL_PASSWORD=teste
+      - MYSQL_ROOT_PASSWORD=password
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./.docker/mariadb/data:/var/lib/mysql
+    command:
+      - "--character-set-server=utf8mb4"
+      - "--collation-server=utf8mb4_unicode_ci"
+      - "--general-log"
+    networks:
+      - mariadb
+
+  keydb:
+    image: eqalpha/keydb
+    volumes:
+      - ./.docker/keydb/data:/data
+    networks:
+      - keydb
+
+  php-fpm:
+    build:
+      context: ./.docker/php-fpm
+    depends_on:
+      - mariadb
+      - keydb
+    volumes:
+      - ./:/var/www/teste-dev
+      - /var/www/teste-dev/var
+      - /var/www/teste-dev/vendor
+    networks:
+      - mariadb
+      - keydb
+      - php-fpm
+
+  nginx:
+    image: nginx:alpine
+    working_dir: /var/www/teste-dev
+    volumes:
+      - ./:/var/www/teste-dev
+      - ./.docker/nginx/conf.d/:/etc/nginx/conf.d
+    depends_on:
+      - php-fpm
+    ports:
+      - "8088:80"
+    networks:
+      - php-fpm
+
+networks:
+  mariadb:
+  php-fpm:
+  keydb:
+
