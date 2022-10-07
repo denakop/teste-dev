@@ -47,7 +47,10 @@ Banco de dados local:
 - password: teste
 --------------------
 API:
-- http://localhost:8088/api/user/getall
+
+```sh 
+http://localhost:8088/api/user/getall
+```
  
 ### Documentação
 - [Symfony](https://symfony.com/doc/current/doctrine.html)
@@ -61,3 +64,5 @@ API:
   - cidade
   - cpf
 - adicionar um novo usuário
+- fazer um novo branch e commitar no repositório "teste-dev"
+  - [Repositório](https://github.com/denakop/teste-dev) 
