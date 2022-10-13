@@ -65,4 +65,5 @@ http://localhost:8088/api/user/getall
   - cpf
 - adicionar um novo usuário
 - fazer um novo branch e commitar no repositório "teste-dev"
-  - [Repositório](https://github.com/denakop/teste-dev) 
+  - [Repositório](https://github.com/denakop/teste-dev)
+- atualizar o arquivo AppFixtures
